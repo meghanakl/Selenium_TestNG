@@ -16,7 +16,7 @@ package com.test.automation;
 		@Test
 		public void MyFirstTestNGTestCase() throws InterruptedException {
 			String title = driver.getTitle();
-			System.out.print("Current page title is : " + title);
+			System.out.print("Current page title is : " +title );
 
 			WebElement user = driver.findElement(By.name("userName"));
 			user.sendKeys("test");
